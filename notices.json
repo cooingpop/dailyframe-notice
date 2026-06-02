@@ -11,10 +11,7 @@
       "startAt": "2026-06-01T00:00:00+09:00",
       "endAt": "2026-08-31T23:59:59+09:00",
       "url": "https://github.com/cooingpop/dailyframe",
-      "badge": {
-        "kind": "readyMonths",
-        "goal": 3
-      }
+      "badgeText": "0 / 3"
     },
     {
       "id": "photo-only-supported",

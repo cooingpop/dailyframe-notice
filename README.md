@@ -104,11 +104,9 @@
 
 ### 오른쪽 작은 배지
 
-- `badge.kind`
-  - 현재 어떤 진행값을 붙일지
-  - 현재 지원값: `readyMonths`
-- `badge.goal`
-  - 목표 숫자
+- `badgeText`
+  - 오른쪽 작은 배지에 그대로 보여줄 문구
+  - 예: `0 / 3`, `D-5`, `NEW`
 
 예:
 
@@ -116,10 +114,7 @@
 {
   "title": "오픈 런칭 이벤트",
   "message": "매일 기록이 3개월 쌓이면 월력을 만들 수 있어요.",
-  "badge": {
-    "kind": "readyMonths",
-    "goal": 3
-  }
+  "badgeText": "0 / 3"
 }
 ```
 
