@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-02T21:30:00+09:00",
+  "autoSlideSeconds": 5,
+  "notices": [
+    {
+      "id": "open-launch-calendar-event",
+      "type": "event",
+      "order": 1,
+      "title": "오픈 런칭 이벤트",
+      "message": "매일 기록이 3개월 쌓이면 월력을 만들 수 있어요.",
+      "visibility": {
+        "mode": "scheduled",
+        "startAt": "2026-06-01T00:00:00+09:00",
+        "endAt": "2026-08-31T23:59:59+09:00"
+      },
+      "action": {
+        "type": "externalUrl",
+        "label": "자세히 보기",
+        "url": "https://github.com/cooingpop/dailyframe"
+      },
+      "progress": {
+        "kind": "readyMonths",
+        "goal": 3
+      },
+      "style": {
+        "icon": "calendar",
+        "accent": "olive"
+      }
+    },
+    {
+      "id": "photo-only-supported",
+      "type": "notice",
+      "order": 2,
+      "title": "사진만으로도 기록 가능",
+      "message": "사진만 올리고 저장해도 오늘 기록이 남아요.",
+      "visibility": {
+        "mode": "always"
+      },
+      "action": {
+        "type": "none"
+      },
+      "style": {
+        "icon": "photo",
+        "accent": "neutral"
+      }
+    },
+    {
+      "id": "month-fill-challenge",
+      "type": "challenge",
+      "order": 3,
+      "title": "이번 달 채우기",
+      "message": "하루씩 차곡차곡 채워서 한 달 달력을 완성해보세요.",
+      "visibility": {
+        "mode": "scheduled",
+        "startAt": "2026-06-01T00:00:00+09:00",
+        "endAt": "2026-06-30T23:59:59+09:00"
+      },
+      "action": {
+        "type": "internal",
+        "target": "calendar"
+      },
+      "style": {
+        "icon": "sparkles",
+        "accent": "warm"
+      }
+    }
+  ]
+}
